@@ -1,0 +1,22 @@
+body {
+    background-color: #ffefbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td,tr {
+    border: 1px solid #000;
+}
+
+form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+form > * {
+    margin: 10px;
+}
